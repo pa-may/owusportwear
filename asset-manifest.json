@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/owusportwear/static/css/main.0509f7a1.css",
+    "main.js": "/owusportwear/static/js/main.b2c9a513.js",
+    "static/media/supreme-court-fc.png": "/owusportwear/static/media/supreme-court-fc.f3c608ba04f3afa9d907.png",
+    "static/media/owu-jersey10.jpg": "/owusportwear/static/media/owu-jersey10.d24b13722e60b6a81d94.jpg",
+    "static/media/slideImg4.png": "/owusportwear/static/media/slideImg4.22d25eff0ad3f98fddf0.png",
+    "static/media/stadium.jpg": "/owusportwear/static/media/stadium.c04973c36734625a4124.jpg",
+    "static/media/boots.png": "/owusportwear/static/media/boots.350ef092b4c63c78fb58.png",
+    "static/media/AWKA-UNITED4.jpg": "/owusportwear/static/media/AWKA-UNITED4.99cd8eb8495e84c7e301.jpg",
+    "static/media/pstudio.png": "/owusportwear/static/media/pstudio.fe79bab72bac9c304ff9.png",
+    "static/media/short.png": "/owusportwear/static/media/short.0ccd9aedbb4648da8b17.png",
+    "static/media/tracksuitcomp.png": "/owusportwear/static/media/tracksuitcomp.502f04b8478a5d1b2d96.png",
+    "static/media/football-goal.png": "/owusportwear/static/media/football-goal.38d147435b22a698cf05.png",
+    "static/media/sock.png": "/owusportwear/static/media/sock.74bd9087b4ed791ed72e.png",
+    "static/media/slideImg3.jpg": "/owusportwear/static/media/slideImg3.abfe943a39d2c903572f.jpg",
+    "static/media/home-board-wristband.png": "/owusportwear/static/media/home-board-wristband.377adda9238fa8776206.png",
+    "static/media/latestTwo.png": "/owusportwear/static/media/latestTwo.f66de1883ce4d6ce9e71.png",
+    "static/media/latestOne.png": "/owusportwear/static/media/latestOne.1ad4a93cd6ea2d5d5feb.png",
+    "static/media/slideImg5.jpg": "/owusportwear/static/media/slideImg5.de5a530eb0f4f7bdf9ae.jpg",
+    "static/media/hurdle.png": "/owusportwear/static/media/hurdle.4befa28a20f12451c005.png",
+    "static/media/jpg": "/owusportwear/static/media/484179490a565d826bfbd9cdb7885048.c6105153fdc1fa14eb94.jpg",
+    "static/media/cards-payment.png": "/owusportwear/static/media/cards-payment.c0ca566881b22c0fe3ac.png",
+    "static/media/latestThree.png": "/owusportwear/static/media/latestThree.8d91d17dec29cdfd1f2c.png",
+    "static/media/slideImg2.jpg": "/owusportwear/static/media/slideImg2.cccd7741cd36fd1c14a4.jpg",
+    "static/media/slideImg6.jpg": "/owusportwear/static/media/slideImg6.0c4b89d90a3ae02a30f5.jpg",
+    "static/media/oww.jpg": "/owusportwear/static/media/oww.6dc3486638e5d6b652c4.jpg",
+    "static/media/logo-white.svg": "/owusportwear/static/media/logo-white.479e4f5dca42018e5f39445546706204.svg",
+    "static/media/logo-black.svg": "/owusportwear/static/media/logo-black.7d1fe2f00de94b33f1092a98e9559e9b.svg",
+    "static/media/slick.svg": "/owusportwear/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/owusportwear/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/owusportwear/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/owusportwear/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/owusportwear/index.html",
+    "main.0509f7a1.css.map": "/owusportwear/static/css/main.0509f7a1.css.map",
+    "main.b2c9a513.js.map": "/owusportwear/static/js/main.b2c9a513.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0509f7a1.css",
+    "static/js/main.b2c9a513.js"
+  ]
+}
