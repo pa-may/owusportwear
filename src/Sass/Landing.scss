@@ -1,0 +1,85 @@
+@import './variables.scss';
+
+.landing {
+  position: relative;
+  // margin-top: 9rem;
+  padding: 2rem 8rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffef90;
+  background-image: url(../Images/484179490a565d826bfbd9cdb7885048.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  @include breakpoint(tablet-landscape) {
+    padding: 2rem 2rem;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  &__container {
+    width: 40%;
+    position: relative;
+    top: 8rem;
+    @include breakpoint(tablet-landscape) {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 10rem;
+    }
+  }
+  &__headerOne {
+    font-size: 5rem;
+    font-weight: 300;
+    line-height: 0.8;
+    margin-bottom: 1rem;
+    font-family: 'Tourney', cursive;
+    color: teal;
+  }
+  &__headerTwo {
+    font-size: 10rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+    line-height: 0.8;
+    font-family: 'Tourney', cursive;
+  }
+  &__subheader {
+    font-size: 2rem;
+  }
+}
+
+.service-container {
+  width: 25%;
+  @include breakpoint(tablet-landscape) {
+    position: relative;
+    width: 100%;
+    right: 0;
+  }
+}
+
+.giff {
+  position: absolute;
+  bottom: 10rem;
+  display: flex;
+  background-color: #90bcff;
+  border-radius: 2rem;
+  overflow: hidden;
+  @include breakpoint(tablet-landscape) {
+    display: none;
+  }
+  &__txt {
+    width: 30rem;
+    padding: 1rem 1rem 1rem 2rem;
+    font-size: 1.6rem;
+  }
+}
+
+.levelupgiff {
+  width: 6rem;
+  height: 6rem;
+  border: none;
+}
+
+.kitgiff {
+  border: none;
+  width: 100%;
+  // width: 10rem;
+}

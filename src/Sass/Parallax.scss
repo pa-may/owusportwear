@@ -1,0 +1,16 @@
+@import './variables';
+
+.parallax {
+  background-image: url(../Images/stadium.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60rem;
+  width: 100%;
+  margin-top: 20rem;
+  @include breakpoint(mobile-landscape) {
+    margin-top: 0;
+    height: 45rem;
+  }
+}

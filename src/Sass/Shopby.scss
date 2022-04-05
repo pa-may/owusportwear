@@ -1,0 +1,57 @@
+@import './variables';
+
+.shopbyNav {
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  height: fit-content;
+  @include breakpoint(mobile-landscape) {
+    padding: 1rem 1rem;
+  }
+
+  &__header {
+    font-size: 1.5rem;
+    height: fit-content;
+    @include breakpoint(mobile-landscape) {
+      display: none;
+    }
+  }
+
+  &__items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    @include breakpoint(mobile-landscape) {
+      flex-wrap: nowrap;
+    }
+  }
+
+  &__list {
+    height: fit-content;
+    padding: 0.5rem;
+    margin: 0 1rem;
+    border: $grey-border solid 0.01rem;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    @include breakpoint(mobile-landscape) {
+      margin-bottom: 0.3rem;
+      margin: 0 0.5rem;
+      padding: 0.3rem;
+    }
+  }
+
+  &__links {
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+}
+
+.sport-icon {
+  font-size: 2rem;
+  margin-left: 0.5rem;
+  display: flex;
+}

@@ -1,0 +1,156 @@
+@import './Variables.scss';
+
+.nav {
+  position: fixed;
+  z-index: 100000;
+  background-color: white;
+  width: 100%;
+  top: 0;
+  left: 0;
+  &__topNav {
+    background-color: $off-black;
+    padding: 0.5rem 8rem;
+    display: flex;
+    justify-content: space-around;
+    @include breakpoint(tablet-portrait) {
+      padding: 0.5rem 2rem;
+    }
+    &-txt {
+      color: white;
+      font-size: 1.2rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      @include breakpoint(tablet-portrait) {
+        text-align: left;
+      }
+    }
+  }
+
+  &__helpbar {
+    padding: 0.5rem 8rem;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: solid 0.1rem rgba(235, 235, 235, 0.541);
+    transition: ease-in-out 0.4s all;
+    @include breakpoint(tablet-landscape) {
+      display: none;
+    }
+    &-links {
+      color: $text;
+      font-size: 1.2rem;
+      font-weight: 200;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      @include breakpoint(tablet-landscape) {
+        text-align: left;
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__mainNav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 8rem;
+    @include breakpoint(tablet-landscape) {
+      padding: 1rem 2rem;
+    }
+
+    &-hamburger {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 6rem;
+      color: black;
+      height: 5rem;
+      width: 5rem;
+      border: #ebe2e2 solid 0.1rem;
+      display: none;
+      cursor: pointer;
+      @include breakpoint(tablet-landscape) {
+        display: flex;
+      }
+    }
+
+    &-logo {
+      position: relative;
+      width: 15rem;
+      @include breakpoint(tablet-landscape) {
+        width: 20rem;
+      }
+      @include breakpoint(mobile-portrait) {
+        width: 15rem;
+      }
+    }
+
+    &-menu {
+      height: fit-content;
+      align-items: center;
+      display: flex;
+      @include breakpoint(tablet-landscape) {
+        display: none;
+      }
+    }
+    &-item {
+      display: flex;
+      align-items: center;
+    }
+
+    &-btn {
+      font-size: 1.3rem;
+      cursor: pointer;
+      text-decoration: none;
+      color: $text;
+      font-weight: 500;
+      text-transform: capitalize;
+      padding: 0 1rem;
+    }
+    &-link {
+      height: 100%;
+      font-size: 1.3rem;
+      cursor: pointer;
+      text-decoration: none;
+      color: $text;
+      font-weight: 500;
+      text-transform: capitalize;
+      padding: 1rem;
+
+      &.active {
+        color: orangered;
+      }
+      @include breakpoint(tablet-landscape) {
+        text-align: left;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+        margin: 0;
+        font-size: 2rem;
+        font-weight: 600;
+        border-bottom: rgb(194, 194, 194) solid 0.1px;
+
+        &:hover {
+          background-color: #14b993;
+        }
+      }
+    }
+
+    &-location-con {
+      display: flex;
+      align-items: center;
+    }
+
+    &-location-contact {
+      font-size: 1.8rem;
+    }
+
+    &-location-icon {
+      font-size: 2rem;
+      margin-left: 1rem;
+    }
+  }
+}

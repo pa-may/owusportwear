@@ -1,0 +1,71 @@
+@import './variables.scss';
+.te {
+  text-align: center;
+  margin: 10rem 0;
+  overflow: hidden;
+
+  &__header {
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: 'Tourney', cursive;
+    margin: 5rem 0;
+  }
+}
+.teams {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+
+  &__card {
+    display: flex;
+    min-width: 35rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 0.5rem;
+    transition: ease-in-out all;
+    cursor: pointer;
+    &:hover {
+    }
+    @include breakpoint(mobile-landscape) {
+      min-width: 40rem;
+    }
+
+    &-img {
+      object-fit: cover;
+      object-position: center;
+      width: 100%;
+      height: 60vh;
+      background-color: white;
+      @include breakpoint(mobile-landscape) {
+        height: 64vh;
+      }
+    }
+
+    &-header {
+      font-size: 1.6rem;
+      font-weight: 500;
+      margin: 0.5rem 0;
+    }
+
+    &-text {
+      font-size: 1.4rem;
+      text-align: left;
+      margin-bottom: 1rem;
+      font-weight: 300;
+    }
+    &-btn {
+      font-size: 1.4rem;
+      font-weight: 700;
+      cursor: pointer;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: ease-in-out 0.4s;
+      padding: 0.5rem 0;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
